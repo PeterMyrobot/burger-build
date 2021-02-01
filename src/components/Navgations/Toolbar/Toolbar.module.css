@@ -13,6 +13,34 @@
   z-index: 90;
 }
 
-.Toolbar nav{
-    height: 100%;
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+}
+
+.burgerMenu {
+  height: 35px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around; 
+  cursor: pointer;
+}
+
+.burgerMenu div{
+  background-color: white;
+  height: 6px;
+  width: 30px;
+  border-radius: 3px;
 }
